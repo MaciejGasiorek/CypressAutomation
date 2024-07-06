@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://demo.1crmcloud.com",
+  "contactsPageUrl": "/index.php?module=Contacts&action=index",
+  "reportPageUrl": "/index.php?module=Reports&action=index"
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "baseUrl": "https://demo.1crmcloud.com/",
+    "types": [
+      "cypress", "node","cypress-xpath"],
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts"],
+  "esModuleInterop": true
+}

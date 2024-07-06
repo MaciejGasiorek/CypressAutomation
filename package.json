@@ -4,7 +4,9 @@
   "description": "Replay Task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
     "TS"
   ],
   "author": "Maciej Gasiorek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@types/node": "14.14.33",
+    "cypress": "^13.13.0",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^4.9.5"
+  }
 }
